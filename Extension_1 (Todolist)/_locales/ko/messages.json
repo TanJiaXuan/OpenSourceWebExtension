@@ -1,0 +1,14 @@
+{
+	"extension_name": {
+		"message": "ToDoListPro — 할 일 목록"
+	},
+	"extension_description": {
+		"message": "미니멀 한 표정 책 간단한 할 일 목록. 한 번의 마우스 클릭으로 자신의 작업을 추가, 편집 및 삭제합니다."
+	},
+	"add_task": {
+		"message": "새 작업..."
+	},
+	"pending_tasks": {
+		"message": "대기중인 작업"
+	}
+}
