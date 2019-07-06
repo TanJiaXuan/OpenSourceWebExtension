@@ -1,0 +1,14 @@
+{
+	"extension_name": {
+		"message": "ToDoListPro — Lista de Tarefas Pendentes"
+	},
+	"extension_description": {
+		"message": "Simples lista de tarefas com o livro olhar ToDoListProa. Adicionar, editar e excluir suas tarefas com um único clique do mouse."
+	},
+	"add_task": {
+		"message": "Nova tarefa..."
+	},
+	"pending_tasks": {
+		"message": "tarefas pendentes"
+	}
+}

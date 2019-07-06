@@ -1,0 +1,14 @@
+{
+	"extension_name": {
+		"message": "ToDoListPro — To-Doリスト"
+	},
+	"extension_description": {
+		"message": "ミニマルルックブックを使用した単純なto-doリスト。マウスを1回クリックするだけで自分のタスクを追加、編集、削除。"
+	},
+	"add_task": {
+		"message": "新しい仕事..."
+	},
+	"pending_tasks": {
+		"message": "保留中のタスク"
+	}
+}

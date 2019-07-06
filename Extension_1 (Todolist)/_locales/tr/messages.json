@@ -1,0 +1,14 @@
+{
+	"extension_name": {
+		"message": "ToDoListPro — Yapılacaklar Listesi"
+	},
+	"extension_description": {
+		"message": "ToDoListPro bir görünüm kitap ile basit yapılacaklar listesi. Tek bir fare tıklaması ile görevlerini ekleme, düzenleme ve silme."
+	},
+	"add_task": {
+		"message": "Yeni görev..."
+	},
+	"pending_tasks": {
+		"message": "bekleyen görevler"
+	}
+}
