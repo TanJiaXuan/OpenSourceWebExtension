@@ -168,3 +168,136 @@ MD5-Digest: p5HdlN7Pn+38ui7Fs/8L+A==
 SHA1-Digest: BGrym2/4OGlAQAp/kJyHafhpx0k=
 SHA256-Digest: Z+NkTrFI5P5XkT8wkV7eUVzfdcEQPmAA/QGqHZSBMh4=
 
+Name: alarm.mp3
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: LUQ7quHLANaUprUDIdNSoQ==
+SHA1-Digest: NS4i2ra0LyLqGA8UraU6un62zok=
+SHA256-Digest: rSHhhMZuGxHSUmhx0HYlIrVDEijO9DOtsHhJWx62Hxc=
+
+Name: alarm.png
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: ZU/sRuy7u+GST5z7FtnLaw==
+SHA1-Digest: s3lCPnP5MHCnc9d5q1RUjiG6YYA=
+SHA256-Digest: zd+9ps57ORFjpaQe4ADt6sKdaDhcz1JqPeCe79vRuEw=
+
+Name: index.html
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: sudRs0igBzh1KUzLJSYEpA==
+SHA1-Digest: sYywvlnINDpoexWEXQW9Uyq7hec=
+SHA256-Digest: zKfCMLkxTcB4RMtcmxHGR+MoIwdSaYgbW1qUSplFxqU=
+
+Name: main.js
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: IRsnEeDvAanv7pHTKmRPfA==
+SHA1-Digest: klXm/AvaUZoGuuxvl56NqzIKG4w=
+SHA256-Digest: jNmUqn92OUR/LLWZqiMjnnArriPMjglDVvjIUAmi5ts=
+
+Name: manifest.json
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: Jdm2aPueLeYyynNOcmHXNg==
+SHA1-Digest: 0ZahctO/QOjS6uRhnwMSyoPRq9A=
+SHA256-Digest: SRTf85CNCM/MghNhUdn0h/HOPdiRcfGMk0oojdYfjfw=
+
+Name: scripts.js
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: O8AVX+T1zN0jfKbgFcFHpw==
+SHA1-Digest: 1thu6KF9Yf38mqxA8wNX4ERs55o=
+SHA256-Digest: AZn/DRWSrSc3hrvtZsrpdB03V2eAG0i1YP0RDVF1g5Y=
+
+Name: __MACOSX/._alarm.mp3
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: OCgwmIfKCCSLpSZe2NHFjQ==
+SHA1-Digest: nc8RqY3CDNQqpCHdj8n4QHd4eV4=
+SHA256-Digest: 6tchFy5aH52cf8gQRFaB+9Z3OH9doBLPil4qavrbRGQ=
+
+Name: __MACOSX/._alarm.png
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: CvzMEJOw3TUiCuDNBboDkw==
+SHA1-Digest: MWLPZOHITPIKMUsbevZ4iSqi9VM=
+SHA256-Digest: L09BdhY0ymHgd2YDslIwulGQedEz4RSh8PYTItuG80Y=
+
+Name: __MACOSX/._index.html
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: JYDQBpGYRi0QHCULSBpuMA==
+SHA1-Digest: JEnnJJmAESmVx61o8MLoNGN1vmQ=
+SHA256-Digest: i0aAfvgNnrd9VEIx4l8n8OlDk/NWpF5A0LUO0DYJiT8=
+
+Name: __MACOSX/._main.js
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: TxphhDn2iVDrdIJ04qWh/w==
+SHA1-Digest: SLRHEdbtNKsNZmp0SRYLizLC0dg=
+SHA256-Digest: 6+cWyQhOQwzysWkefC0X5vCHnGtpmL/oKqaXFekaMSc=
+
+Name: __MACOSX/._manifest.json
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: HqDiZUxfK0D1QgbTkqhfDg==
+SHA1-Digest: jG9ShGdmGlSVO2pHgg8hlC+/hrw=
+SHA256-Digest: MozVudAbx5t3GLLDqKJfToHgeBfOEu+pwcYLiKcO2pc=
+
+Name: alarm.mp3
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: LUQ7quHLANaUprUDIdNSoQ==
+SHA1-Digest: NS4i2ra0LyLqGA8UraU6un62zok=
+SHA256-Digest: rSHhhMZuGxHSUmhx0HYlIrVDEijO9DOtsHhJWx62Hxc=
+
+Name: alarm.png
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: ZU/sRuy7u+GST5z7FtnLaw==
+SHA1-Digest: s3lCPnP5MHCnc9d5q1RUjiG6YYA=
+SHA256-Digest: zd+9ps57ORFjpaQe4ADt6sKdaDhcz1JqPeCe79vRuEw=
+
+Name: index.html
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: sudRs0igBzh1KUzLJSYEpA==
+SHA1-Digest: sYywvlnINDpoexWEXQW9Uyq7hec=
+SHA256-Digest: zKfCMLkxTcB4RMtcmxHGR+MoIwdSaYgbW1qUSplFxqU=
+
+Name: main.js
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: IRsnEeDvAanv7pHTKmRPfA==
+SHA1-Digest: klXm/AvaUZoGuuxvl56NqzIKG4w=
+SHA256-Digest: jNmUqn92OUR/LLWZqiMjnnArriPMjglDVvjIUAmi5ts=
+
+Name: manifest.json
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: Jdm2aPueLeYyynNOcmHXNg==
+SHA1-Digest: 0ZahctO/QOjS6uRhnwMSyoPRq9A=
+SHA256-Digest: SRTf85CNCM/MghNhUdn0h/HOPdiRcfGMk0oojdYfjfw=
+
+Name: scripts.js
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: O8AVX+T1zN0jfKbgFcFHpw==
+SHA1-Digest: 1thu6KF9Yf38mqxA8wNX4ERs55o=
+SHA256-Digest: AZn/DRWSrSc3hrvtZsrpdB03V2eAG0i1YP0RDVF1g5Y=
+
+Name: __MACOSX/._alarm.mp3
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: OCgwmIfKCCSLpSZe2NHFjQ==
+SHA1-Digest: nc8RqY3CDNQqpCHdj8n4QHd4eV4=
+SHA256-Digest: 6tchFy5aH52cf8gQRFaB+9Z3OH9doBLPil4qavrbRGQ=
+
+Name: __MACOSX/._alarm.png
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: CvzMEJOw3TUiCuDNBboDkw==
+SHA1-Digest: MWLPZOHITPIKMUsbevZ4iSqi9VM=
+SHA256-Digest: L09BdhY0ymHgd2YDslIwulGQedEz4RSh8PYTItuG80Y=
+
+Name: __MACOSX/._index.html
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: JYDQBpGYRi0QHCULSBpuMA==
+SHA1-Digest: JEnnJJmAESmVx61o8MLoNGN1vmQ=
+SHA256-Digest: i0aAfvgNnrd9VEIx4l8n8OlDk/NWpF5A0LUO0DYJiT8=
+
+Name: __MACOSX/._main.js
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: TxphhDn2iVDrdIJ04qWh/w==
+SHA1-Digest: SLRHEdbtNKsNZmp0SRYLizLC0dg=
+SHA256-Digest: 6+cWyQhOQwzysWkefC0X5vCHnGtpmL/oKqaXFekaMSc=
+
+Name: __MACOSX/._manifest.json
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: HqDiZUxfK0D1QgbTkqhfDg==
+SHA1-Digest: jG9ShGdmGlSVO2pHgg8hlC+/hrw=
+SHA256-Digest: MozVudAbx5t3GLLDqKJfToHgeBfOEu+pwcYLiKcO2pc=
+
+
