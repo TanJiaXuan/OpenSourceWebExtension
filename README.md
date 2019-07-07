@@ -10,12 +10,19 @@ Firefox Extension refer: https://addons.mozilla.org/en-GB/firefox/addon/todolist
 
 To Do List:
 
-- Change the icon and name of the web extension
+- Upload the firefox web extension (Done by TJX on 07/07/2019)
 
-- Add a reminder function (Done 07/07/2019)
+- Change the icon and name of the web extension (Done by TJX on 07/07/2019)
+
+- Add a reminder function and update all the file content (Done by TJX on 07/07/2019)
 
 - Change the layout of the design
 
 - Edit the font size and word limits for each textbox
+
+- Check the sequence of web extension code
+
+
+
 
 
