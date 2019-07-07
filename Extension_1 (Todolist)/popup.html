@@ -1,27 +1,73 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>To-Do</title>
-        <link rel="stylesheet" type="text/css" href="css/popup.css">
-        
-        <script src="js/jquery-3.1.1.js"></script>
-        <script src="js/jquery.cookie.js"></script>
-        <script src="js/jquery.jeditable.js"></script>
-        <script src="js/popup.js"></script>
-    </head>
-    <body>
-    	<div class="container">
-		<section class="todo">
-	        <h4 id="title">Your To-Do List</h4>
-	        <div class="todo-list"></div>
-	        <form class="todo-form" action="" method="post">
-	            <input type="submit" class="task-submit icon-add" value="Add" tabindex="-1">
-	            <input id="task" class="task" type="text" name="task" size="40" maxlength="35" autocomplete="off" tabindex="-1">
-	        </form>
-		 	</section>
-		</div>       
-    </body>
+  <head>
+    <title>To Do List</title>
+    <link rel="stylesheet" type="text/css" href="css/popup.css" />
+
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/jquery.jeditable.js"></script>
+    <script src="js/popup.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <section class="todo">
+        <h4 id="title">Your To-Do List</h4>
+        <div class="todo-list"></div>
+        <form class="todo-form" action="" method="post">
+          <input
+            type="submit"
+            class="task-submit icon-add"
+            value="Add"
+            tabindex="-1"
+          />
+          <input
+            id="task"
+            class="task"
+            type="text"
+            name="task"
+            size="40"
+            maxlength="35"
+            autocomplete="off"
+            tabindex="-1"
+          />
+        </form>
+      </section>
+    </div>
+    <div class="container">
+      <section class="todo">
+        <h4 id="title">Reminder</h4>
+        <input
+          type="text"
+          class="remainder form-control"
+          id="remainder"
+          placeholder="Remainder..."
+        /><br /><br />
+        <input
+          class="inputs form-control"
+          type="number"
+          id="hours"
+          placeholder="Hour"
+          label="hour"
+        /><input
+          class="inputs form-control"
+          type="number"
+          id="minutes"
+          placeholder="Min"
+        />
+        <input
+          class="inputs form-control"
+          type="number"
+          id="seconds"
+          placeholder="Sec"
+        />
+        <br />
+        <button id="submit" class="btn btn-default btn-block">Submit</button>
+        <audio id="alarm">
+          <source src="alarm.mp3" type="audio/mpeg" />
+        </audio>
+      </section>
+    </div>
+    <script src="./scripts.js"></script>
+  </body>
 </html>
-
-
-
