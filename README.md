@@ -16,4 +16,6 @@ To Do List:
 
 - Change the layout of the design
 
+- Edit the font size and word limits for each textbox
+
 
