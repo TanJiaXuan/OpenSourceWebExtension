@@ -10,10 +10,11 @@ Firefox Extension refer: https://addons.mozilla.org/en-GB/firefox/addon/todolist
 
 To Do List:
 
-1.Upload the firefox web extension (Done by TJX on 07/07/2019)
+1.Upload the firefox web extension function (Done by TJX on 07/07/2019)
   - Code of To Do List
   
   - Code of Reminder
+    - Display added reminder detail & history
 
 
 
