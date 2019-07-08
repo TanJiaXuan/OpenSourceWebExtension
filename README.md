@@ -10,17 +10,27 @@ Firefox Extension refer: https://addons.mozilla.org/en-GB/firefox/addon/todolist
 
 To Do List:
 
-- Upload the firefox web extension (Done by TJX on 07/07/2019)
+1.Upload the firefox web extension (Done by TJX on 07/07/2019)
+  - Code of To Do List
+  
+  - Code of Reminder
 
-- Change the icon and name of the web extension ()
 
-- Add a reminder function and update all the file content (Done by TJX on 07/07/2019)
 
-- Change the layout of the design (change the box design 08/07/2019, )
+2. Update HTML & CSS file content (UI Design) 
+  - Change the pop up box design (08/07/2019)
+  
+  - Edit the font size and word limits for each textbox
+  
+  - Change the icon and name of the web extension
+  
+  - Change the alignment of submit button in reminder section
+  
+  - Change the alignment of the insertion of timer box 
 
-- Edit the font size and word limits for each textbox
 
-- Check the sequence of web extension code (delete the html and css unused code 08/07/2019)
+3.Check the sequence and tidy of web extension code
+ 
 
 
 
