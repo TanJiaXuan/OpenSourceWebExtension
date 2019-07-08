@@ -17,6 +17,7 @@ To Do List:
 
 
 
+
 2. Update HTML & CSS file content (UI Design) 
   - Change the pop up box design (08/07/2019)
   
@@ -27,6 +28,8 @@ To Do List:
   - Change the alignment of submit button in reminder section
   
   - Change the alignment of the insertion of timer box 
+
+
 
 
 3.Check the sequence and tidy of web extension code
