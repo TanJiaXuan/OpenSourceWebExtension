@@ -12,15 +12,15 @@ To Do List:
 
 - Upload the firefox web extension (Done by TJX on 07/07/2019)
 
-- Change the icon and name of the web extension (Done by TJX on 07/07/2019)
+- Change the icon and name of the web extension ()
 
 - Add a reminder function and update all the file content (Done by TJX on 07/07/2019)
 
-- Change the layout of the design
+- Change the layout of the design (change the box design 08/07/2019, )
 
 - Edit the font size and word limits for each textbox
 
-- Check the sequence of web extension code
+- Check the sequence of web extension code (delete the html and css unused code 08/07/2019)
 
 
 
