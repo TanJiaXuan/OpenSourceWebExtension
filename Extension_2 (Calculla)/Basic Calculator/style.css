@@ -167,7 +167,7 @@ button:focus::after {
   cursor: pointer;
   float: left;
   font: inherit;
-  font-size: 20px;
+  font-size: 14px;
   margin: 0em;
   width: 5em;
   height: 2em;
@@ -184,5 +184,5 @@ button:focus::after {
 /* currency display box */
 .currencyDisplay {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
+  font-size: 14px;
 }
