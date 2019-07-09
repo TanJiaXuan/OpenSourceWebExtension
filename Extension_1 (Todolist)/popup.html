@@ -38,33 +38,41 @@
       <section class="reminder">
         <h4 id="title">Reminder</h4>
         <div class="reminder-list"></div>
+        <div class="alignCenter">
+          <br />
+          <input
+            type="text"
+            class="remainder form-control"
+            id="remainder"
+            placeholder="Reminder..."
+            maxlength="150"
+          />
+        </div>
+        <br />
         <input
-          type="text"
-          class="remainder form-control"
-          id="remainder"
-          placeholder="Remainder..."
-        /><br /><br />
-        <input
-          class="inputs form-control"
+          class="inputs-form-control"
           type="number"
           id="hours"
           placeholder="Hour"
           label="hour"
         /><input
-          class="inputs form-control"
+          class="inputs-form-control"
           type="number"
           id="minutes"
           placeholder="Min"
         />
         <input
-          class="inputs form-control"
+          class="inputs-form-control"
           type="number"
           id="seconds"
           placeholder="Sec"
         />
         <br />
-
-        <button id="submit" class="btn btn-default btn-block">Submit</button>
+        <br />
+        <div class="btnSubmit">
+          <button id="submit" class="BtnS">Submit</button>
+        </div>
+        <br />
 
         <audio id="alarm">
           <source src="alarm.mp3" type="audio/mpeg" />
