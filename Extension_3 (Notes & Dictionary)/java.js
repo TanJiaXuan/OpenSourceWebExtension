@@ -13,7 +13,7 @@ MyNotes.addEventListener('keyup',()=>{
     browser.storage.local.set({ MyAllNotes: MyNotes.innerHTML});
 }, false);
 
-
+/*save function*/
 function save(){
 	browser.storage.local.set({ MyAllNotes: MyNotes.innerHTML});
 }
