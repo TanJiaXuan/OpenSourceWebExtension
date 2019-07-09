@@ -291,6 +291,8 @@ span.task-item {
 .todo-pagination li {
   float: left;
 }
+
+/* pagination next for todo list */
 .todo-pagination .next {
   float: right;
 }
@@ -314,6 +316,8 @@ span.task-item {
   border-radius: 3px;
   border: none;
 }
+
+/* hover effect on todo list pagination */
 .todo-pagination a:hover,
 .add-task-button:hover {
   background: #e9e9e9;
@@ -347,10 +351,12 @@ span.task-item {
   opacity: 1;
 }
 
+/* checked icon */
 .icon-check {
   background-position: 0 0;
 }
 
+/* add button  */
 .icon-add {
   background-position: -8px 0;
 }
@@ -378,7 +384,6 @@ span.task-item {
 }
 
 /* reminder*/
-
 .container2 {
   width: 350px;
   padding: 0;
@@ -388,6 +393,7 @@ span.task-item {
   padding: 0;
 }
 
+/* reminder view */
 .reminder {
   position: relative;
   width: 350px;
@@ -404,6 +410,7 @@ span.task-item {
   list-style: none;
 }
 
+/* submit button */
 .btnSubmit {
   text-align: center;
 }
