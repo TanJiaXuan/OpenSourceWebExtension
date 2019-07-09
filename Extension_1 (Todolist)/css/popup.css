@@ -426,6 +426,7 @@ span.task-item {
   text-align: center;
 }
 
+/*set the width of input form*/
 .inputs-form-control {
   max-width: 100px;
 }
