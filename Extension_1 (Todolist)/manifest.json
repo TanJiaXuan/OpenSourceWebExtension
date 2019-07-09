@@ -3,7 +3,7 @@
   "default_locale": "en",
   "name": "__MSG_extension_name__",
   "description": "__MSG_extension_description__",
-  "short_name": "ToDoListPro",
+  "short_name": "ToDoList",
   "version": "0.1.0",
   "applications": {
     "gecko": {
@@ -21,11 +21,11 @@
   "browser_action": {
     "browser_style": false,
     "default_icon": {
-      "19": "img/icon-19.png",
+      "19": "img/icon-38.png",
       "38": "img/icon-38.png"
     },
     "default_popup": "popup.html",
-    "default_title": "ToDoListPro"
+    "default_title": "ToDoList"
   },
   "content_scripts": [
     {
