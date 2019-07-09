@@ -43,9 +43,9 @@ To Do List:
 
 3.Check the sequence and tidy of web extension code
 
-      (Some deletion code file from the locales file and scripts.js by TJX on 09/07/2019)
+  (Some deletion code file from the locales file and scripts.js by TJX on 09/07/2019)
 
 
------------------------------------------------------------------------------------------------------------------------------------
+_____________________________________________________________________________________________________________________________________
 
 
