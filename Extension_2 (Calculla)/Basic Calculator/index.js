@@ -1,19 +1,22 @@
 (function() {
   'use strict';
-  // Shortcut to get elements
+
+  //shortcut to get elements
   var el = function(element) {
     if (element.charAt(0) === '#') {
       // If passed an ID...
+
       return document.querySelector(element); // ... returns single element
     }
+
     return document.querySelectorAll(element); // Otherwise, returns a nodelist
   };
 
-  // Variables
-  var viewer = el('#viewer'), // Calculator screen where result is displayed
+  //calculator variables
+  var viewer = el('#viewer'), // Calculator screen to display result
     warning = el('#warning'), //Warning or Error message
     formulaDisplay = el('#formulaDisplay'), //Formula Display Message
-    formulaList = el('#formulaList'), //List of Formulae
+    formulaList = el('#formulaList'), //List of Formula
     check = el('#check'), //Check Formula Button
     equals = el('#equals'), // Equal button
     nums = el('.num'), // List of numbers
@@ -30,11 +33,13 @@
     if (resultNum) {
       // If a result was displayed, reset number
       currentNum = this.getAttribute('data-num');
+
       resultNum = '';
     } else {
       // Otherwise, add digit to previous number
       currentNum += this.getAttribute('data-num');
     }
+
     viewer.innerHTML = currentNum; // Display current number
   };
 
@@ -45,79 +50,108 @@
     } else {
       currentNum = prevAnsNum;
     }
+
     viewer.innerHTML = currentNum;
   };
 
   // When: Operator is clicked. Pass number to oldNum and save operator
   var moveNum = function() {
     oldNum = currentNum;
+
     currentNum = '';
+
     operator = this.getAttribute('data-ops');
-    equals.setAttribute('data-result', ''); // Reset result in attr
+
+    equals.setAttribute('data-result', ''); // Reset result
   };
 
   // When: Equals is clicked. Calculate result
   var displayResults = function() {
     // Convert string input to numbers
     oldNum = parseFloat(oldNum);
+
     currentNum = parseFloat(currentNum);
 
     // Perform operation
     switch (operator) {
       case 'plus':
         resultNum = oldNum + currentNum;
+
         break;
+
       case 'minus':
         resultNum = oldNum - currentNum;
+
         break;
+
       case 'times':
         resultNum = oldNum * currentNum;
+
         break;
+
       case 'divided by':
         resultNum = oldNum / currentNum;
+
         break;
+
       // If equal is pressed without an operator, keep number and continue
       default:
         resultNum = currentNum;
     }
+
     // If NaN or Infinity returned
     if (!isFinite(resultNum)) {
       if (isNaN(resultNum)) {
         resultNum = '';
+
         warning.innerHTML =
           'Warning: Please do not use two operands in a single calculation';
       } else {
         resultNum = '';
+
         warning.innerHTML = 'Warning: Please do not divide by 0';
       }
     }
-    // Display result, finally!
+
+    // Display result
     viewer.innerHTML = resultNum;
+
     equals.setAttribute('data-result', resultNum);
+
     // Now reset oldNum & keep result, set previous answer as result
     oldNum = 0;
+
     currentNum = resultNum;
+
     prevAnsNum = resultNum;
   };
 
   // When: Clear button is pressed. Clear everything, except previous answer
   var clearAll = function() {
     oldNum = '';
+
     currentNum = '';
+
     viewer.innerHTML = '0';
+
     equals.setAttribute('data-result', resultNum);
   };
 
   // When: Clear button is pressed. Clear everything, except previous answer
   var clearAllAC = function() {
     oldNum = '';
+
     currentNum = '';
+
     viewer.innerHTML = '0';
+
     prevAnsNum = 0;
+
     equals.setAttribute('data-result', resultNum);
   };
 
-  /* The click events */
+  /* Click events */
+
   // Add click event to numbers
   for (var i = 0, l = nums.length; i < l; i++) {
     nums[i].onclick = setNum;
@@ -131,11 +165,19 @@
   // Add click event to equal sign
   equals.onclick = displayResults;
 
-  // Ass click event to previous answer
+  // Add click event to previous answer
   prevAns.onclick = setPrevAns;
 
   // Add click event to clear button
   el('#clear').onclick = clearAll;
+
   currency;
+
   el('#clearAC').onclick = clearAllAC;
+
+  // Add click event for changing formula
+  formulaList.onclick = changeFormula;
+
+  // Add click event for to GO! button
+  check.onclick = changeFormula;
 })();
