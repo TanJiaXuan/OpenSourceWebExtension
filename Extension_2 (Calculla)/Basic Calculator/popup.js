@@ -11,3 +11,7 @@ function onCurrencyChange(event) {
 
   update(event.target.name);
 }
+
+function onValueChange(event) {
+  update(event.target.name);
+}
