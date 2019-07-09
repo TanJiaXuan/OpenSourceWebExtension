@@ -53,8 +53,8 @@ body {
   color: rgb(0, 0, 0);
   grid-gap: 20px;
   padding: 10px;
-  justify-content: left;
-  align-items: left;
+  justify-content: right;
+  align-items: right;
 }
 
 .tool-items {
