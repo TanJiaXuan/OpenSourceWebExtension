@@ -12,7 +12,7 @@ body {
   color: #a50303;
   font-family: 'Times New Roman', Times, serif;
   font-size: 24px;
-  padding: 2em 0 0em;
+  padding: 0em 0 0em;
   text-align: center;
 }
 
@@ -29,6 +29,14 @@ h1 {
   margin: 0;
 }
 
+h3 {
+  color: #a50303;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  text-align: center;
+  padding: 2em 0 0em;
+}
+
 .warning {
   background: -webkit-linear-gradient(45deg, #df94f1 10%, #463042 90%);
   -webkit-background-clip: text;
@@ -40,9 +48,10 @@ h1 {
 }
 
 .calculator {
-  font-size: 20px;
+  font-size: 18px;
   margin: 0 auto;
-  width: 12em;
+  width: 11em;
+  text-align: center;
 }
 .calculator::before,
 .calculator::after {
@@ -56,12 +65,12 @@ h1 {
 .viewer {
   color: #c97874;
   float: left;
-  line-height: 3em;
+  line-height: 2em;
   text-align: right;
   text-overflow: clip;
   overflow: auto;
   width: 8em;
-  height: 3em;
+  height: 2em;
 }
 
 button {
@@ -71,10 +80,10 @@ button {
   cursor: pointer;
   float: left;
   font: inherit;
-  font-size: large;
+  font-size: 18px;
   margin: 0em;
-  width: 3em;
-  height: 3em;
+  width: 2.5em;
+  height: 2.5em;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -117,5 +126,35 @@ button:focus::after {
 
 .pResult {
   text-align: center;
-  margin-left: 17%;
+  margin-left: 11%;
+}
+
+.currency {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+}
+
+.btn {
+  border: 2;
+  background: #c97874;
+  color: white;
+  cursor: pointer;
+  float: left;
+  font: inherit;
+  font-size: 14px;
+  margin: 0em;
+  width: 5em;
+  height: 2em;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background: white;
+  color: #000000;
+}
+
+.currencyDisplay {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
 }
