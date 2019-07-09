@@ -27,6 +27,7 @@ function onKeyPress(event) {
   );
 }
 
+// return converter value
 function onPaste(event) {
   var value = event.clipboardData.getData('Text');
   value = value.replace(/[^0-9.,]/g, '');
@@ -35,6 +36,7 @@ function onPaste(event) {
   event.target.value = value;
 }
 
+// press add button to add currency
 function addCurrency(init) {
   var input_value = document.createElement('input');
   input_value.type = 'text';
@@ -48,6 +50,7 @@ function addCurrency(init) {
     return onKeyPress(event);
   };
 
+  // get option list from currencies.js 
   var td_left = document.createElement('td');
   td_left.setAttribute('class', 'paddingtd');
   td_left.appendChild(input_value);
