@@ -22,7 +22,8 @@ body {
 /* footer font */
 h6 {
   color: #c97874;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
   font-size: 15px;
   text-align: center;
   padding: 2em 0 0em;
