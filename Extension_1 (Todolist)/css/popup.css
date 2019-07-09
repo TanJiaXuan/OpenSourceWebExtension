@@ -421,6 +421,7 @@ span.task-item {
   border-radius: 8px;
 }
 
+/* align item in center */
 .alignCenter {
   text-align: center;
 }
