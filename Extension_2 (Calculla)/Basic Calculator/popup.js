@@ -117,6 +117,7 @@ function changeVisibilityRemove(visible) {
   document.getElementById('btnRemove').disabled = !visible;
 }
 
+// update and replace currency
 function update(id) {
   var value = document.getElementById('value' + id).value;
   value = value.replace(',', '.');
@@ -146,6 +147,7 @@ function update(id) {
   }
 }
 
+// set selected country currency base on user selection
 function setSelectedIndex(s, value) {
   var select = document.getElementById(s);
 
@@ -157,6 +159,7 @@ function setSelectedIndex(s, value) {
   }
 }
 
+// convert currency value chosen by user
 function convertValue(element, value, from, to) {
   document
     .getElementById('loading')
