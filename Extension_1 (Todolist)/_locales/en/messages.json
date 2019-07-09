@@ -1,14 +1,15 @@
 {
-	"extension_name": {
-		"message": "ToDoListPro — Simple To-Do List"
-	},
-	"extension_description": {
-		"message": "Add, edit and delete your tasks with a single click. Simple to-do list with a simple notebook look."
-	},
-	"add_task": {
-		"message": "New task..."
-	},
-	"pending_tasks": {
-		"message": "pending tasks"
-	}
+  "extension_name": {
+    "message": "ToDoList & Reminder"
+  },
+  "extension_description": {
+    "message": "Add and delete your tasks with a single click . Simple to-do list with a simple notebook look."
+  },
+  "add_task": {
+    "message": "New task..."
+  },
+  "pending_tasks": {
+    "message": "pending tasks"
+  }
 }
+Change the
