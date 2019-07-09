@@ -15,3 +15,11 @@ function onCurrencyChange(event) {
 function onValueChange(event) {
   update(event.target.name);
 }
+
+function onKeyPress(event) {
+  return (
+    (event.keyCode > 47 && event.keyCode < 58) ||
+    event.keyCode == 44 ||
+    event.keyCode == 46
+  );
+}
