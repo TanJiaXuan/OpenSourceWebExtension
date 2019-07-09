@@ -2,9 +2,7 @@
 
 There are three web extension design by firefox in this repository
 
-First Sub Task
-
-To Do List with Reminder Web Extension: TanJiaXuan
+Extension I - To Do List with Reminder 
 
 Firefox Extension refer: https://addons.mozilla.org/en-GB/firefox/addon/todolistpro-pro-to-do-list/?src=search
 
