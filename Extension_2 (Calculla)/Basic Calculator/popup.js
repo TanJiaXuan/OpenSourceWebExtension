@@ -148,3 +148,23 @@ function setSelectedIndex(s, value) {
     }
   }
 }
+
+function convertValue(element, value, from, to) {
+  document
+    .getElementById('loading')
+    .setAttribute('style', 'visibility:visible;');
+  element.value = 'loading...';
+  loading_count++;
+
+  background_page.convertValue(value, from, to, function(response) {
+    if (response.status == 'error') element.value = 'timeout';
+    else element.value = response.value;
+
+    loading_count--;
+
+    if (loading_count == 0)
+      document
+        .getElementById('loading')
+        .setAttribute('style', 'visibility:hidden;');
+  });
+}
