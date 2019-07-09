@@ -124,6 +124,8 @@ body {
   border: 1px dotted #ccc;
   border-radius: 2px;
 }
+
+/* todo list after update */
 .todo:after {
   bottom: -3px;
   left: 0;
@@ -131,6 +133,8 @@ body {
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
+
+/* todo list before update */
 .todo:before {
   bottom: -5px;
   left: 2px;
@@ -139,16 +143,20 @@ body {
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
 }
+
 .lt-ie9 .todo:before,
 .lt-ie9 .todo:after {
   height: 1px;
   border-top: 0;
 }
 
+/* todo list */
 .todo-list {
   border-top: 2px dotted #2184ac;
   list-style: none;
 }
+
+/* todo list before update */
 .todo-list:before {
   content: '';
   position: absolute;
@@ -160,6 +168,8 @@ body {
   /*border: 1px solid #f2e3df;*/
   border-width: 0 1px;
 }
+
+/* todo list in listed ordered */
 .todo-list li {
   position: relative;
   padding: 7px 15px 7px 5px;
@@ -168,6 +178,8 @@ body {
   color: #787a80;
   border-bottom: 1px dotted #e6ebed;
 }
+
+/* toggle todo list */
 .todo-list .toggle {
   display: block;
   position: absolute;
