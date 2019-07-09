@@ -9,11 +9,19 @@ html {
 }
 
 body {
-  color: #000000;
-  font: 300 18px/1.6 'Source Sans Pro', sans-serif;
-  margin: 0;
-  padding: 5em 0 2em;
+  color: #a50303;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  padding: 2em 0 0em;
   text-align: center;
+}
+
+h6 {
+  color: #c97874;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  text-align: center;
+  padding: 2em 0 0em;
 }
 
 h1 {
@@ -34,7 +42,7 @@ h1 {
 .calculator {
   font-size: 20px;
   margin: 0 auto;
-  width: 6em;
+  width: 12em;
 }
 .calculator::before,
 .calculator::after {
@@ -57,21 +65,21 @@ h1 {
 }
 
 button {
-  border: 0;
-  background: rgba(42, 50, 113, 0.28);
+  border: 2;
+  background: white;
   color: #000000;
   cursor: pointer;
   float: left;
   font: inherit;
   font-size: large;
   margin: 0em;
-  width: 2em;
-  height: 2em;
+  width: 3em;
+  height: 3em;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 button:hover {
-  background: #6cacc5;
+  background: #c97874;
 }
 button:focus {
   outline: 0;
@@ -105,4 +113,9 @@ button:focus::after {
   content: attr(data-result);
   margin-left: -300px;
   width: 600px;
+}
+
+.pResult {
+  text-align: center;
+  margin-left: 17%;
 }
