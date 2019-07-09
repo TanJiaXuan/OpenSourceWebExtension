@@ -23,3 +23,11 @@ function onKeyPress(event) {
     event.keyCode == 46
   );
 }
+
+function onPaste(event) {
+  var value = event.clipboardData.getData('Text');
+  value = value.replace(/[^0-9.,]/g, '');
+  event.returnValue = false;
+
+  event.target.value = value;
+}
