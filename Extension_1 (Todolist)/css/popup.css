@@ -191,6 +191,8 @@ body {
   text-shadow: none;
   color: transparent;
 }
+
+/* todo list before toggle */
 .todo-list .toggle:before {
   content: '';
   position: absolute;
@@ -208,10 +210,14 @@ body {
   -webkit-box-shadow: 0 1px 1px #dfecf4;
   box-shadow: 0 1px 1px #dfecf4;
 }
+
+/* hover effect before toggle  */
 .todo-list .toggle:hover:before {
   -webkit-box-shadow: 0 0 3px #6bb3ca;
   box-shadow: 0 0 3px #6bb3ca;
 }
+
+/* after toggle */
 .todo-list .done .toggle:before,
 .todo-list .toggle:active:before {
   border-color: #b9d3ee #cae1ff #d8d8d8;
@@ -222,11 +228,13 @@ body {
     inset 0 5px 5px rgba(0, 0, 0, 0.05);
 }
 
+/* task item  */
 span.task-item {
   line-height: 16px !important;
   text-indent: -50px !important;
 }
 
+/* task list */
 .task {
   background: #cae1ff;
   color: #000;
