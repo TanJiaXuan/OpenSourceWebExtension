@@ -210,12 +210,3 @@ function init() {
   update(id);
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-  document.getElementById('btnAdd').addEventListener('click', function() {
-    addCurrency(false);
-  });
-  document
-    .getElementById('btnRemove')
-    .addEventListener('click', removeCurrency);
-  init();
-});
