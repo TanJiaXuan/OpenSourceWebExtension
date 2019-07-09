@@ -1,4 +1,4 @@
-// currency option list
+// different countries currency option list
 var currenciesJSON = {
   AUD: { name: 'Australian Dollar' },
   BRL: { name: 'Brazilian Real' },
