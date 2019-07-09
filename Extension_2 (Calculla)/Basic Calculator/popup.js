@@ -5,3 +5,9 @@ var loading_count = 0;
 var background_page = chrome.extension.getBackgroundPage();
 var timer;
 
+function onCurrencyChange(event) {
+  var option = event.target.options[event.target.selectedIndex];
+  localStorage.setItem(event.target.id, option.value);
+
+  update(event.target.name);
+}
