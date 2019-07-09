@@ -21,7 +21,7 @@ function save(){
 
 var editorContent = document.getElementById("mnotes");
 
-
+/*get data*/
 document.getElementById("underline").addEventListener("click", underlinee);
 document.getElementById("italic").addEventListener("click", italicc);
 document.getElementById("bold").addEventListener("click", boldd);
