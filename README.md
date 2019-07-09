@@ -10,11 +10,11 @@ Firefox Extension refer: https://addons.mozilla.org/en-GB/firefox/addon/todolist
 
 To Do List:
 
-1.Upload the firefox web extension function (Done by TJX on 07/07/2019)
+1.Upload the firefox web extension function
+(Upload by TJX on 07/07/2019)
   - Code of To Do List
   
   - Code of Reminder
-    - Display added reminder detail & history
 
 
 
@@ -26,9 +26,11 @@ To Do List:
   
   - Change the icon and name of the web extension
   
-  - Change the alignment of submit button in reminder section
+  - Change the alignment of submit button in reminder section 
+  (Edit the text box alignment by TJX on 09/08/2019)
   
-  - Change the alignment of the insertion of timer box 
+  - Change the alignment of the insertion of timer box
+  (Edit the text box alignment by TJX on 09/08/2019)
 
 
 
