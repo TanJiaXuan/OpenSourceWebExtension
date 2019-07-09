@@ -146,16 +146,19 @@ button:focus::after {
   width: 600px;
 }
 
+/* previous result button */
 .pResult {
   text-align: center;
   margin-left: 11%;
 }
 
+/* currency title */
 .currency {
   font-family: 'Times New Roman', Times, serif;
   font-size: 12px;
 }
 
+/* add and remove currency button */
 .btn {
   border: 2;
   background: #c97874;
@@ -171,11 +174,13 @@ button:focus::after {
   transition: all 0.5s;
 }
 
+/* hover effect on add and remove currency button */
 .btn:hover {
   background: white;
   color: #000000;
 }
 
+/* currency display box */
 .currencyDisplay {
   font-family: 'Times New Roman', Times, serif;
   font-size: 12px;
