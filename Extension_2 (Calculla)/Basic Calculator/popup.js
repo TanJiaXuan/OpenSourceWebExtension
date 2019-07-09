@@ -104,3 +104,7 @@ function removeCurrency() {
 function changeVisibilityAdd(visible) {
   document.getElementById('btnAdd').disabled = !visible;
 }
+
+function changeVisibilityRemove(visible) {
+  document.getElementById('btnRemove').disabled = !visible;
+}
