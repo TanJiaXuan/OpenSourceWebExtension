@@ -245,36 +245,49 @@ span.task-item {
   border-color: #b9d3ee #cae1ff #d8d8d8;
   border-radius: 2px;
 }
+
+/* focus effect for task */
 .task:focus {
   outline: none !important;
   box-shadow: 0 0 15px #d8d8d8;
 }
 
+/* controls function */
 .todo-controls {
   position: absolute;
   top: -12px;
   padding: 10px 0 0 12px;
   width: 300px;
 }
+
+/* controls todo list function */
 .todo-controls li {
   float: left;
 }
+
+/* controls todo list  */
 .todo-controls li.right {
   float: right;
 }
+/* control todo list */
 .todo-controls a {
   display: block;
   margin: 0;
   opacity: 0.6;
 }
+
+/* control todo list with hover effect */
 .todo-controls a:hover {
   opacity: 1;
 }
 
+/* pagination for todo list */
 .todo-pagination {
   margin: 12px 12px 0 50px;
   height: 22px;
 }
+
+/* pagination for todo list */
 .todo-pagination li {
   float: left;
 }
