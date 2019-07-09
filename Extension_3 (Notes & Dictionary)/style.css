@@ -44,7 +44,7 @@ body {
 #mnotes:empty:not(:focus):before {
   content: attr(data-placeholder);
 }
-
+/*toolbar for notes*/
 .toolbar {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20px, 40px));
