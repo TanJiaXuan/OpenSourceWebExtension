@@ -90,32 +90,7 @@ function convertValueRecursive(value, from, to, callback) {
   callback({ status: 'success', value: converted });
 }
 
-/*
-
-function getVersion() 
-
-{
-
-	var details = chrome.app.getDetails();
-
-	return details.version;
-
-}
-
-*/
-
-/*var currVersion = getVersion();
-
-var prevVersion = localStorage.getItem('version');
-
-if (currVersion != prevVersion) 
-
-{
-
-	if (prevVersion != null) 
-
-	{*/
-
+// currency array
 var currencies = [];
 
 for (var i = 0; i < MAX_CURRENCIES; i++) {
@@ -130,16 +105,5 @@ for (var i = 0; i < MAX_CURRENCIES; i++) {
   currencies[i] = currency;
 }
 
+// preview converted currency
 localStorage.setItem('currencies', JSON.stringify(currencies));
-
-/*
-
-    }
-
-    
-
-	localStorage.setItem('version', currVersion);
-
-}
-
-*/
