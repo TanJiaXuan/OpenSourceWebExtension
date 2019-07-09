@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-attachment: fixed;
+  color: #9cdcf5;
+  text-align: center;
+}
+
+body {
+  color: #000000;
+  font: 300 18px/1.6 'Source Sans Pro', sans-serif;
+  margin: 0;
+  padding: 5em 0 2em;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 300;
+  margin: 0;
+}
+
+.warning {
+  background: -webkit-linear-gradient(45deg, #df94f1 10%, #463042 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #000000;
+  font-weight: 400;
+  margin: 0 auto 0em;
+  max-width: 10em;
+}
+
+.calculator {
+  font-size: 20px;
+  margin: 0 auto;
+  width: 6em;
+}
+.calculator::before,
+.calculator::after {
+  content: ' ';
+  display: table;
+}
+.calculator::after {
+  clear: both;
+}
+
+.viewer {
+  color: #c97874;
+  float: left;
+  line-height: 3em;
+  text-align: right;
+  text-overflow: clip;
+  overflow: auto;
+  width: 8em;
+  height: 3em;
+}
+
+button {
+  border: 0;
+  background: rgba(42, 50, 113, 0.28);
+  color: #000000;
+  cursor: pointer;
+  float: left;
+  font: inherit;
+  font-size: large;
+  margin: 0em;
+  width: 2em;
+  height: 2em;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+button:hover {
+  background: #6cacc5;
+}
+button:focus {
+  outline: 0;
+}
+button:focus::after {
+  -webkit-animation: zoom 1s;
+  animation: zoom 1s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  content: attr(data-num);
+  cursor: default;
+  font-size: 100px;
+  position: absolute;
+  top: 1.5em;
+  left: 50%;
+  text-align: center;
+  margin-left: -24px;
+  opacity: 0;
+  width: 48px;
+}
+
+.ops:focus::after {
+  content: attr(data-ops);
+  margin-left: -210px;
+  width: 420px;
+}
+
+.equals:focus::after {
+  content: attr(data-result);
+  margin-left: -300px;
+  width: 600px;
+}
