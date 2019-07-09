@@ -1,13 +1,16 @@
+/* extionsion sizing */
 * {
   box-sizing: border-box;
 }
 
+/* global style */
 html {
   background-attachment: fixed;
   color: #9cdcf5;
   text-align: center;
 }
 
+/* html body style */
 body {
   color: #a50303;
   font-family: 'Times New Roman', Times, serif;
@@ -16,6 +19,7 @@ body {
   text-align: center;
 }
 
+/* footer font */
 h6 {
   color: #c97874;
   font-family: 'Times New Roman', Times, serif;
@@ -24,11 +28,13 @@ h6 {
   padding: 2em 0 0em;
 }
 
+/* calculla title font */
 h1 {
   font-weight: 300;
   margin: 0;
 }
 
+/* currency title font */
 h3 {
   color: #a50303;
   font-family: 'Times New Roman', Times, serif;
