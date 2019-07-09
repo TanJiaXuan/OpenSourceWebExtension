@@ -100,3 +100,7 @@ function removeCurrency() {
 
   if (count_currencies <= MIN_CURRENCIES) changeVisibilityRemove(false);
 }
+
+function changeVisibilityAdd(visible) {
+  document.getElementById('btnAdd').disabled = !visible;
+}
