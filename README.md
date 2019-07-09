@@ -52,3 +52,8 @@ ________________________________________________________________________________
 Extension II - Calculla
 
 A basic calculator math operators and save previous answer function. This calculator will save your last calculation after closing, you can continue anytime withouth losing your work. 
+
+Shortcut key to open Calculla: CTRL + SHIFT + Y
+
+Available Features:
+
