@@ -11,12 +11,15 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 
+  <!-- basic calculator  -->
   <body>
     <h3 style="text-align:center">CALCULLA</h3>
 
+    <!-- display result  -->
     <div id="calculator" class="calculator" align="center">
       <div id="viewer" class="viewer">0</div>
       <table>
+        <!-- first row -->
         <tr>
           <td>
             <button id="clearAC" class="clear" data-num="Clear">AC</button>
@@ -31,6 +34,7 @@
             <button data-ops="divided by" class="ops">/</button>
           </td>
         </tr>
+        <!-- second row -->
         <tr>
           <td>
             <button class="num" data-num="7">7</button>
@@ -45,6 +49,7 @@
             <button data-ops="times" class="ops">*</button>
           </td>
         </tr>
+        <!-- third row -->
         <tr>
           <td>
             <button class="num" data-num="4">4</button>
@@ -59,6 +64,7 @@
             <button data-ops="minus" class="ops">-</button>
           </td>
         </tr>
+        <!-- fourth row -->
         <tr>
           <td>
             <button class="num" data-num="1">1</button>
@@ -73,6 +79,7 @@
             <button data-ops="plus" class="ops">+</button>
           </td>
         </tr>
+        <!-- fifth row -->
         <tr>
           <td>
             <button class="num" data-num="0">0</button>
@@ -87,6 +94,7 @@
             <button id="clear" class="clear">C</button>
           </td>
         </tr>
+        <!-- button click to display previous result -->
         <tr>
           <td colspan="4">
             <button
@@ -102,6 +110,7 @@
       </table>
     </div>
 
+    <!-- currency converter -->
     <div id="formula" class="currency">
       <h3 style="text-align:center">CURRENCY</h3>
 
@@ -122,6 +131,7 @@
                     style="visibility: hidden;"
                   ></div>
                 </td>
+                <!-- add currency or remove currency button -->
                 <td>
                   <input type="button" id="btnAdd" class="btn" value="Add" />
                 </td>
@@ -140,10 +150,12 @@
       </table>
     </div>
 
+    <!-- call script from  -->
     <script src="index.js"></script>
     <script src="currencies.js"></script>
     <script src="popup.js"></script>
   </body>
 
+  <!-- footer -->
   <h6>Simple & Easy for You</h6>
 </html>
