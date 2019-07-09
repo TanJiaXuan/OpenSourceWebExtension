@@ -19,9 +19,9 @@ To Do List:
 2. Update HTML & CSS file content (UI Design) 
   - Change the pop up box design 
  
-     (Edited the pop up box UI design by TJX on 08/07/2019)
+      (Edited the pop up box UI design by TJX on 08/07/2019)
 
-     (Edited the color of UI by TJX on 09/07/2019)
+      (Edited the color of UI by TJX on 09/07/2019)
 
   
   - Edit the font size and word limits for each textbox 
