@@ -42,7 +42,7 @@ function boldd(){document.execCommand('bold', false, '');save();}
 function undoo(){document.execCommand('undo',false,'');save();}
 function redoo(){document.execCommand('redo',false,'');save();}
 
-
+/*function link*/
 function linkk(){
   var url = prompt("Enter the URL & hit OK");
   
