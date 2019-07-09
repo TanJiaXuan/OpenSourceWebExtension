@@ -71,30 +71,37 @@ h4 {
   margin: 1.2em 0 1em 1em;
 }
 
+/* task list */
 .task {
   width: 240px;
   border: none !important;
 }
 
+/* input bar */
 input {
   font-size: 14px;
 }
 
+/* reminder body */
 body {
   font-family: monospace, sans-serif;
   color: #454141;
   background: #f8f8f8;
 }
 
+/* reminder container */
 .container {
   width: 350px;
   padding: 0;
 }
+
+/* container for todo list */
 .container .todo {
   margin: 0 auto;
   padding: 0;
 }
 
+/* todo list */
 .todo {
   position: relative;
   width: 350px;
@@ -105,6 +112,8 @@ body {
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
+
+/* before and after update todo list */
 .todo:before,
 .todo:after {
   content: '';
