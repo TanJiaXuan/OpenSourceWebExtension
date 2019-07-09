@@ -79,7 +79,7 @@ function centerr(){document.execCommand('justifyCenter',false,'');save();}
 function rightt(){document.execCommand('justifyRight',false,'');save();}
 
 
-
+/*paste function*/
 function handlePaste (e) {
 		
 		var selectedText=(
