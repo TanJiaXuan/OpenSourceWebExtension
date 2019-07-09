@@ -180,6 +180,7 @@ function convertValue(element, value, from, to) {
   });
 }
 
+// count currency function
 function init() {
   for (
     count_currencies = 0;
@@ -221,6 +222,7 @@ function init() {
   update(id);
 }
 
+// event listener for button and currency display
 document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('btnAdd').addEventListener('click', function() {
     addCurrency(false);
