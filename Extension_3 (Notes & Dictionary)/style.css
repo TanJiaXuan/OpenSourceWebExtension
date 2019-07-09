@@ -81,7 +81,7 @@ body {
 	height: 24px;
 	background: rgba(255,255,255,1.0);
 }
-
+/*search icon image*/
 #searchIcon {
 	right: 0px;
 	background: url('../search.jpg') no-repeat center center;
