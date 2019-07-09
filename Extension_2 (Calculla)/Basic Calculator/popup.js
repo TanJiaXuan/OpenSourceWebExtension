@@ -137,3 +137,14 @@ function update(id) {
     else convertValue(current_element, value, from, to);
   }
 }
+
+function setSelectedIndex(s, value) {
+  var select = document.getElementById(s);
+
+  for (i = 0; i < select.options.length; i++) {
+    if (select.options[i].value == value) {
+      select.options[i].selected = true;
+      break;
+    }
+  }
+}
