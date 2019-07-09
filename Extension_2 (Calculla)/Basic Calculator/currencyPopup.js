@@ -85,29 +85,7 @@ function addCurrency(init) {
   }
 }
 
-function removeCurrency() {
-  if (count_currencies <= MIN_CURRENCIES) return;
 
-  count_currencies--;
-  localStorage.removeItem('currency' + count_currencies);
-  var container = document.getElementById('currency');
-
-  container.removeChild(
-    document.getElementById('trCurrency' + count_currencies)
-  );
-
-  if (count_currencies < MAX_CURRENCIES) changeVisibilityAdd(true);
-
-  if (count_currencies <= MIN_CURRENCIES) changeVisibilityRemove(false);
-}
-
-function changeVisibilityAdd(visible) {
-  document.getElementById('btnAdd').disabled = !visible;
-}
-
-function changeVisibilityRemove(visible) {
-  document.getElementById('btnRemove').disabled = !visible;
-}
 
 
 
