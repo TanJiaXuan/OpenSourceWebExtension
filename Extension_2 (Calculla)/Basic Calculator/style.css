@@ -74,6 +74,7 @@ h3 {
   clear: both;
 }
 
+/* calculator display box */
 .viewer {
   color: #c97874;
   float: left;
@@ -85,6 +86,7 @@ h3 {
   height: 2em;
 }
 
+/* calculator buttons */
 button {
   border: 2;
   background: white;
@@ -99,12 +101,18 @@ button {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
+
+/* hover effect on calculator buttons */
 button:hover {
   background: #c97874;
 }
+
+/* focus effect on calculator buttons */
 button:focus {
   outline: 0;
 }
+
+/* after focus event on calculator buttons */
 button:focus::after {
   -webkit-animation: zoom 1s;
   animation: zoom 1s;
@@ -124,12 +132,14 @@ button:focus::after {
   width: 48px;
 }
 
+/* after focus */
 .ops:focus::after {
   content: attr(data-ops);
   margin-left: -210px;
   width: 420px;
 }
 
+/* equal button after focus */
 .equals:focus::after {
   content: attr(data-result);
   margin-left: -300px;
