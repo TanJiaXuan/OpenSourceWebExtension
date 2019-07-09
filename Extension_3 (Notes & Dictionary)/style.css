@@ -22,6 +22,7 @@ body {
     inset 0px -10px 15px -10px rgba(0, 0, 0, 0.5);
 }
 
+/*background for notes*/
 #mnotes {
   font-family: Bookman Old Style;
   background: repeat;
