@@ -37,30 +37,36 @@ ul {
     inset 0 5px 5px rgba(0, 0, 0, 0.05);
 }
 
+/* form style */
 .task-item form {
   display: inline;
 }
 
+/* submitted task */
 .task-submit {
   vertical-align: 5px !important;
   margin-left: 1px !important;
   margin-right: 20px !important;
 }
 
+/* extension title */
 #title {
   text-align: center;
 }
 
+/* extension sub title */
 h4 {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   padding-bottom: 0;
 }
 
+/* error message */
 .error {
   color: red;
 }
 
+/* to do list  */
 .todo-form {
   margin: 1.2em 0 1em 1em;
 }
