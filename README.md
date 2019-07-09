@@ -100,3 +100,22 @@ Available Countries:
  - THB: Thai Baht
  - TRY: Turkish Lira
  - USD: United States Dollar
+ _______________________________________________________________________________________________________________________________________
+ Extension III - Notes & Dictionary 
+
+Firefox Extension refer: https://addons.mozilla.org/en-US/firefox/addon/my-notes-small/?src=search
+
+1.Upload the firefox web extension function
+  - Code of Notes
+  - Code of Dictionary
+  (Done: 7/7/2019)
+
+2. Update HTML & CSS file content (UI Design) 
+  - Change the pop up box design 
+  - Insert search function 
+  - Fix search function
+  - Allign the position of search box
+  (Done: 8/7/2019)
+
+3.Check the sequence and tidy of web extension code
+  (Done: 8/7/2019)
