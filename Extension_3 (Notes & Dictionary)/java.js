@@ -94,7 +94,7 @@ function handlePaste (e) {
                 document.selection.createRange().text
      );
 
-		
+		/*variable for data of clipboard and pasted*/
 		var clipboardData, pastedData;
 
 		
