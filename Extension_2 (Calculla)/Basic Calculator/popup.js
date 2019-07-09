@@ -5,6 +5,7 @@ var loading_count = 0;
 var background_page = chrome.extension.getBackgroundPage();
 var timer;
 
+// currency change function
 function onCurrencyChange(event) {
   var option = event.target.options[event.target.selectedIndex];
   localStorage.setItem(event.target.id, option.value);
@@ -12,10 +13,12 @@ function onCurrencyChange(event) {
   update(event.target.name);
 }
 
+// currency value change function
 function onValueChange(event) {
   update(event.target.name);
 }
 
+// currency key code 
 function onKeyPress(event) {
   return (
     (event.keyCode > 47 && event.keyCode < 58) ||
