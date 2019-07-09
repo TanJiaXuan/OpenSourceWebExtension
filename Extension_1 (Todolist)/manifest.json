@@ -16,12 +16,13 @@
   "icons": {
     "19": "img/icon-19.png",
     "38": "img/icon-38.png",
-    "128": "img/icon-128.png"
+    "128": "img/icon-128.png",
+    "red": "img/icon-red.png"
   },
   "browser_action": {
     "browser_style": false,
     "default_icon": {
-      "19": "img/icon-38.png",
+      "19": "img/icon-19.png",
       "38": "img/icon-38.png"
     },
     "default_popup": "popup.html",
