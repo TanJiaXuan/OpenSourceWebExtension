@@ -1,0 +1,90 @@
+body{
+margin:-4px;
+padding:0;
+overflow:hidden;
+margin-top:6px;
+background:#614537;
+font-family: Bookman Old Style;
+}
+
+
+
+.editor {
+background: repeat;
+background-image: url("background2.jpg");
+background-attachment: local;
+width: 842px;
+height: 450px;
+padding-top:20px;
+padding-bottom:20px;
+overflow: scroll;
+overflow-x: hidden;
+margin-left:auto;
+margin-right:auto;
+resize:both;
+  box-shadow: 
+        inset 0px 10px 15px -10px rgba(0,0,0,0.5),
+        inset 0px -10px 15px -10px rgba(0,0,0,0.5); 
+
+}
+
+
+#mnotes {
+font-family: Bookman Old Style;
+background: repeat;
+background-image: url("background.jpg");
+background-attachment: local;
+font-size: 18px;
+line-height:20px;
+width: 798px;
+height: 440px;
+padding: 8px;
+overflow: scroll;
+overflow-x: hidden;
+margin-left:auto;
+margin-right:auto;
+resize:both;
+ box-shadow: 
+        inset 0px 20px 35px -10px #fef8ba,
+        inset 0px -20px 35px -10px #fef8ba;
+
+}
+
+
+#mnotes:empty:not(:focus):before {
+  content: attr(data-placeholder);
+}
+
+
+
+
+.toolbar{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(20px,40px));
+    background-color: rgb(231, 231, 231);
+    color: rgb(0, 0, 0);
+    grid-gap: 20px;
+    padding: 10px;
+    justify-content: center;
+    align-items:center;
+}
+
+.tool-items{
+    background-color: #614537;
+     padding-top: .6rem;
+     padding-bottom:.6rem;
+    cursor: pointer;
+    color:#fef8ba;
+	box-shadow: 1px 1px 2px black;
+	transition:0.3s;
+}
+
+.tool-items:hover{
+    box-shadow: none;
+    color: #ffff;
+	background-color:#483329;
+	transition:0.3s;
+
+}
+
+
