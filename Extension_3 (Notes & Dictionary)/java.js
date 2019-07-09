@@ -73,6 +73,7 @@ if (!url.startsWith('http')){url = "https://"+url;}
   save();
 }
 
+/*function if false*/
 function cutt(){document.execCommand('strikeThrough',false,'');save();}
 function leftt(){document.execCommand('justifyLeft',false,'');save();}
 function centerr(){document.execCommand('justifyCenter',false,'');save();}
