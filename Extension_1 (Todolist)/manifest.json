@@ -3,7 +3,7 @@
   "default_locale": "en",
   "name": "__MSG_extension_name__",
   "description": "__MSG_extension_description__",
-  "short_name": "ToDoList",
+  "short_name": "ToDoList&Reminder",
   "version": "0.1.0",
   "applications": {
     "gecko": {
@@ -16,8 +16,7 @@
   "icons": {
     "19": "img/icon-19.png",
     "38": "img/icon-38.png",
-    "128": "img/icon-128.png",
-    "red": "img/icon-red.png"
+    "128": "img/icon-128.png"
   },
   "browser_action": {
     "browser_style": false,
