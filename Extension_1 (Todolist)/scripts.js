@@ -1,3 +1,5 @@
+var submit = document.getElementById('submit');
+
 var alarmplay = document.getElementById('alarm');
 submit.addEventListener('click', () => {
   alert('Reminder Created. Click OK to activate the Reminder');
