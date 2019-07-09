@@ -43,6 +43,7 @@ h3 {
   padding: 2em 0 0em;
 }
 
+/* warning message */
 .warning {
   background: -webkit-linear-gradient(45deg, #df94f1 10%, #463042 90%);
   -webkit-background-clip: text;
@@ -53,17 +54,22 @@ h3 {
   max-width: 10em;
 }
 
+/* claculator style */
 .calculator {
   font-size: 18px;
   margin: 0 auto;
   width: 11em;
   text-align: center;
 }
+
+/* calculator display box before and after */
 .calculator::before,
 .calculator::after {
   content: ' ';
   display: table;
 }
+
+/* clear display box content after */
 .calculator::after {
   clear: both;
 }
