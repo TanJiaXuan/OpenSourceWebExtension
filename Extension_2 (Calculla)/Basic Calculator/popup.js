@@ -18,7 +18,7 @@ function onValueChange(event) {
   update(event.target.name);
 }
 
-// currency key code 
+// currency key code
 function onKeyPress(event) {
   return (
     (event.keyCode > 47 && event.keyCode < 58) ||
@@ -50,7 +50,7 @@ function addCurrency(init) {
     return onKeyPress(event);
   };
 
-  // get option list from currencies.js 
+  // get option list from currencies.js
   var td_left = document.createElement('td');
   td_left.setAttribute('class', 'paddingtd');
   td_left.appendChild(input_value);
@@ -90,7 +90,7 @@ function addCurrency(init) {
     if (count_currencies == MAX_CURRENCIES) changeVisibilityAdd(false);
   }
 }
-
+// removed currency from the display list. minimum two currency on display
 function removeCurrency() {
   if (count_currencies <= MIN_CURRENCIES) return;
 
@@ -107,10 +107,12 @@ function removeCurrency() {
   if (count_currencies <= MIN_CURRENCIES) changeVisibilityRemove(false);
 }
 
+// change add button visibility after max currency is hit
 function changeVisibilityAdd(visible) {
   document.getElementById('btnAdd').disabled = !visible;
 }
 
+// change remove button visibility after min currency is hit
 function changeVisibilityRemove(visible) {
   document.getElementById('btnRemove').disabled = !visible;
 }
