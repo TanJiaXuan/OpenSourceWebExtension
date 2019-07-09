@@ -23,15 +23,12 @@ ul {
   margin-right: 2em;
   margin-left: 0.5em;
 
-  border-color: #c0c0c0 #ccc #d8d8d8;
+  border-color: #b9d3ee #cae1ff #d8d8d8;
   background: #fdfcfc url('../img/sprite.png') 2px 2px no-repeat;
   -webkit-box-shadow: inset 0 1px rgba(0, 0, 0, 0.05),
     inset 0 5px 5px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px rgba(0, 0, 0, 0.05),
     inset 0 5px 5px rgba(0, 0, 0, 0.05);
-}
-
-.task-item {
 }
 
 .task-item form {
@@ -89,8 +86,8 @@ body {
 .todo {
   position: relative;
   width: 350px;
-  background: white;
-  border: 2px dotted solid;
+  background: #cae1ff;
+  border: 2px dotted;
   border-color: #2184ac;
   border-radius: 2px;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -184,7 +181,7 @@ body {
 }
 .todo-list .done .toggle:before,
 .todo-list .toggle:active:before {
-  border-color: #c0c0c0 #ccc #d8d8d8;
+  border-color: #b9d3ee #cae1ff #d8d8d8;
   background: #fdfcfc url('../img/sprite.png') 2px 2px no-repeat;
   -webkit-box-shadow: inset 0 1px rgba(0, 0, 0, 0.05),
     inset 0 5px 5px rgba(0, 0, 0, 0.05);
@@ -198,25 +195,25 @@ span.task-item {
 }
 
 .task {
-  background: white;
-  color: #787a80;
+  background: #cae1ff;
+  color: #000;
   font-size: 13px;
   padding: 3px 6px;
   margin-left: -6px;
   border: 1px solid;
-  border-color: #c0c0c0 #ccc #d8d8d8;
+  border-color: #b9d3ee #cae1ff #d8d8d8;
   border-radius: 2px;
 }
 .task:focus {
   outline: none !important;
-  //box-shadow: 0 0 15px #d8d8d8;
+  box-shadow: 0 0 15px #d8d8d8;
 }
 
 .todo-controls {
   position: absolute;
   top: -12px;
   padding: 10px 0 0 12px;
-  //width: 300px;
+  width: 300px;
 }
 .todo-controls li {
   float: left;
@@ -332,7 +329,7 @@ span.task-item {
   width: 350px;
   padding: 0;
 }
-.container .reminder {
+.container2 .reminder {
   margin: 0 auto;
   padding: 0;
 }
@@ -340,45 +337,33 @@ span.task-item {
 .reminder {
   position: relative;
   width: 350px;
-  background: white;
-  border: 2px dotted solid;
+  background: #cae1ff;
+  border: 2px dotted;
   border-color: #2184ac;
   border-radius: 2px;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
-.reminder:before,
-.reminder:after {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  height: 4px;
-  background: white;
-  border: 1px dotted #ccc;
-  border-radius: 2px;
-}
-.reminder:after {
-  bottom: -3px;
-  left: 0;
-  right: 0;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-}
-.reminder:before {
-  bottom: -5px;
-  left: 2px;
-  right: 2px;
-  border-color: #c4c4c4;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-}
-.lt-ie9 .reminder:before,
-.lt-ie9 .reminder:after {
-  height: 1px;
-  border-top: 0;
-}
 
 .reminder-list {
   border-top: 2px dotted #2184ac;
   list-style: none;
+}
+
+.btnSubmit {
+  text-align: center;
+}
+
+.BtnS {
+  background-color: cornflowerblue;
+  color: black;
+  border-radius: 8px;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.inputs-form-control {
+  max-width: 100px;
 }
