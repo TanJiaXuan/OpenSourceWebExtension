@@ -1,6 +1,6 @@
 # OpenSourceWebExtension
 
-original Extension - Calculla
+Original Extension - Calculla
 
 A basic calculator that can save your last calculation after closing, you can continue anytime withouth losing your work. 
 
