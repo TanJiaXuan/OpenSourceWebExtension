@@ -1,8 +1,8 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Web Calculator</title>
+    <title>Calculla</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
@@ -12,7 +12,7 @@
   </head>
 
   <body>
-    <h3 style="text-align:center">Web Calculator</h3>
+    <h3 style="text-align:center">CALCULLA</h3>
 
     <div id="calculator" class="calculator" align="center">
       <div id="viewer" class="viewer">0</div>
@@ -91,7 +91,7 @@
           <td colspan="4">
             <button
               id="prevAns"
-              class="prevAns"
+              class="pResult"
               style="width:8.5em"
               align="center"
             >
@@ -102,8 +102,8 @@
       </table>
     </div>
 
-        <div id="formula" class="formula">
-      <h3 style="text-align:center">Live Currency</h3>
+    <div id="formula" class="currency">
+      <h3 style="text-align:center">CURRENCY</h3>
 
       <table align="center">
         <tr>
@@ -113,20 +113,25 @@
         </tr>
         <tr>
           <td>
-            <table class="width100" align="center">
+            <table align="center">
               <tr>
-                <td class="width100 paddingtd">
+                <td>
                   <div
                     id="loading"
-                    class="throbber"
+                    class="currencyDisplay"
                     style="visibility: hidden;"
                   ></div>
                 </td>
-                <td class="paddingtd">
-                  <input type="button" id="btnAdd" value="Add" />
+                <td>
+                  <input type="button" id="btnAdd" class="btn" value="Add" />
                 </td>
-                <td class="paddingtd">
-                  <input type="button" id="btnRemove" value="Remove" />
+                <td>
+                  <input
+                    type="button"
+                    id="btnRemove"
+                    class="btn"
+                    value="Remove"
+                  />
                 </td>
               </tr>
             </table>
@@ -134,9 +139,11 @@
         </tr>
       </table>
     </div>
-    
+
     <script src="index.js"></script>
     <script src="currencies.js"></script>
     <script src="popup.js"></script>
   </body>
+
+  <h6>Simple & Easy for You</h6>
 </html>
