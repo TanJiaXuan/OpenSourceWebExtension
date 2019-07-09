@@ -178,6 +178,4 @@
   // Add click event for changing formula
   formulaList.onclick = changeFormula;
 
-  // Add click event for to GO! button
-  check.onclick = changeFormula;
 })();
