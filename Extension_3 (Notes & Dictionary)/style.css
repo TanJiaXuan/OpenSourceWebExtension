@@ -1,121 +1,88 @@
-body {
-  margin: -4px;
-  padding: 0;
-  overflow: hidden;
-  margin-top: 6px;
-  background: #000000;
-  font-family: Bookman Old Style;
+body{
+margin:-4px;
+padding:0;
+overflow:hidden;
+margin-top:6px;
+background:#614537;
+font-family: Bookman Old Style;
 }
+
+
 
 .editor {
-  background: repeat;
-  background-image: url('background2.jpg');
-  background-attachment: local;
-  width: 842px;
-  height: 450px;
-  overflow: scroll;
-  overflow-x: hidden;
-  margin-left: auto;
-  margin-right: auto;
-  resize: both;
-  box-shadow: inset 0px 10px 15px -10px rgba(0, 0, 0, 0.5),
-    inset 0px -10px 15px -10px rgba(0, 0, 0, 0.5);
+background: repeat;
+background-image: url("background2.jpg");
+background-attachment: local;
+width: 842px;
+height: 450px;
+padding-top:20px;
+padding-bottom:20px;
+overflow: scroll;
+overflow-x: hidden;
+margin-left:auto;
+margin-right:auto;
+resize:both;
+  box-shadow: 
+        inset 0px 10px 15px -10px rgba(0,0,0,0.5),
+        inset 0px -10px 15px -10px rgba(0,0,0,0.5); 
+
 }
 
+
 #mnotes {
-  font-family: Bookman Old Style;
-  background: repeat;
-  background-image: url('background.jpg');
-  background-attachment: local;
-  font-size: 18px;
-  line-height: 20px;
-  width: 798px;
-  height: 440px;
-  padding: 8px;
-  overflow: scroll;
-  overflow-x: hidden;
-  margin-left: auto;
-  margin-right: auto;
-  resize: both;
-  box-shadow: inset 0px 20px 35px -10px #b9f885,
-    inset 0px -20px 35px -10px #92f175;
+font-family: Bookman Old Style;
+background: repeat;
+background-image: url("background.jpg");
+background-attachment: local;
+font-size: 18px;
+line-height:20px;
+width: 798px;
+height: 440px;
+padding: 8px;
+overflow: scroll;
+overflow-x: hidden;
+margin-left:auto;
+margin-right:auto;
+resize:both;
+ box-shadow: 
+        inset 0px 20px 35px -10px #fef8ba,
+        inset 0px -20px 35px -10px #fef8ba;
+
 }
+
 
 #mnotes:empty:not(:focus):before {
   content: attr(data-placeholder);
 }
 
-.toolbar {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20px, 40px));
-  background-color: rgb(151, 56, 1);
-  color: rgb(0, 0, 0);
-  grid-gap: 20px;
-  padding: 10px;
-  justify-content: left;
-  align-items: left;
+
+
+
+.toolbar{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(20px,40px));
+    background-color: rgb(231, 231, 231);
+    color: rgb(0, 0, 0);
+    grid-gap: 20px;
+    padding: 10px;
+    justify-content: center;
+    align-items:center;
 }
 
-.tool-items {
-  background-color: #614537;
-  padding-top: 0.6rem;
-  padding-bottom: 0.6rem;
-  cursor: pointer;
-  color: #fef8ba;
-  box-shadow: 1px 1px 2px black;
-  transition: 0.3s;
+.tool-items{
+    background-color: #614537;
+     padding-top: .6rem;
+     padding-bottom:.6rem;
+    cursor: pointer;
+    color:#fef8ba;
+	box-shadow: 1px 1px 2px black;
+	transition:0.3s;
 }
 
-.tool-items:hover {
-  box-shadow: none;
-  color: #ffff;
-  background-color: #483329;
-  transition: 0.3s;
-}
+.tool-items:hover{
+    box-shadow: none;
+    color: #ffff;
+	background-color:#483329;
+	transition:0.3s;
 
-#wrapper {
-	position: relative;
-	float: left;
-	width: 150px;
-	height: 24px;
-	background: rgba(255,255,255,1.0);
 }
-
-#searchIcon {
-	right: 0px;
-	background: url('../search.jpg') no-repeat center center;
-}
-
-#searchBtn {
-	position: relative;
-	float: right;
-	cursor: pointer;
-	width: 24px;
-	height: 24px;
-	z-index: 2;
-}
-
-#searchIcon, #logo {
-	position: absolute;
-	height: 100%;
-	width: 24px;
-}
-
-#inputText {
-	font-size: 12px;
-	font-family: Arial;
-	font-style: normal;
-	font-weight: normal;
-	color: rgba(128,128,128,1.0);
-	height: 24px;
-	position: absolute;
-	background: transparent;
-	border-width: 0px;
-	border-style: none;
-	border-color: rgba(0,0,0,1.0);
-	border-radius: 0px;
-	z-index: 1;
-	width: 100px;
-	padding-left: 10px;
-	padding-right: 40px;
-}	
