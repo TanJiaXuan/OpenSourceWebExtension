@@ -108,3 +108,32 @@ function changeVisibilityAdd(visible) {
 function changeVisibilityRemove(visible) {
   document.getElementById('btnRemove').disabled = !visible;
 }
+
+function update(id) {
+  var value = document.getElementById('value' + id).value;
+  value = value.replace(',', '.');
+
+  if (isNaN(value)) return;
+
+  localStorage.setItem('last_id', id);
+  localStorage.setItem('last_value', value);
+
+  var fromSelectCurrency = document.getElementById('currency' + id);
+  var fromOptionCurrency =
+    fromSelectCurrency.options[fromSelectCurrency.selectedIndex];
+  var from = fromOptionCurrency.value;
+
+  for (i = 0; i < count_currencies; i++) {
+    if (id == i) continue;
+
+    var current_element = document.getElementById('value' + i);
+
+    var toSelectCurrency = document.getElementById('currency' + i);
+    var toOptionCurrency =
+      toSelectCurrency.options[toSelectCurrency.selectedIndex];
+    var to = toOptionCurrency.value;
+
+    if (from == to || value == '') current_element.value = value;
+    else convertValue(current_element, value, from, to);
+  }
+}
